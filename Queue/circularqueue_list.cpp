@@ -20,6 +20,8 @@ void enqueue(int x){
     rear->next=front;
 }
 
+####
+
 void dequeue(){
     if(front==0 && rear==0){
         cout<<"UnderFlow"<<endl;
